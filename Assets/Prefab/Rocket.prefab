@@ -218,11 +218,11 @@ GameObject:
   m_Component:
   - component: {fileID: 6353565669218334474}
   - component: {fileID: 8720269061368429225}
-  - component: {fileID: 4385463973472003846}
   - component: {fileID: 2352514160030207736}
   - component: {fileID: 5025109953911452939}
   - component: {fileID: 6994379703916083058}
   - component: {fileID: 677976471}
+  - component: {fileID: 3071660567973656649}
   m_Layer: 0
   m_Name: RocketSprite
   m_TagString: Untagged
@@ -297,23 +297,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &4385463973472003846
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5046976272657486456}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 70accfc2f3e096f44911fb3ef308264a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _leftThruster: {fileID: 2545422184515141047}
-  _rightThruster: {fileID: 3610677663663212562}
-  velocity: 10
-  _rbLeft: {fileID: 6452102608340744468}
-  _rbRight: {fileID: 8620713794373395546}
 --- !u!50 &2352514160030207736
 Rigidbody2D:
   serializedVersion: 4
@@ -397,3 +380,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.8125, y: 1.6875}
   m_EdgeRadius: 0
+--- !u!114 &3071660567973656649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5046976272657486456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6f391fdd17c183459523a2902ffd019, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _leftThruster: {fileID: 2545422184515141047}
+  _rightThruster: {fileID: 3610677663663212562}
+  velocity: 10
